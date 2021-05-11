@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hilowhw:
+    image: hilowhw
+    build:
+      context: .
+      dockerfile: ./Dockerfile
