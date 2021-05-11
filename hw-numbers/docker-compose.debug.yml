@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hwnumbers:
+    image: hwnumbers
+    build:
+      context: .
+      dockerfile: ./Dockerfile
