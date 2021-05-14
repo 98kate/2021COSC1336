@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  primenumbers:
+    image: primenumbers
+    build:
+      context: .
+      dockerfile: ./Dockerfile
